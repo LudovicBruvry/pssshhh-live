@@ -1,0 +1,139 @@
+<!doctype html>
+<html lang="fr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Confidentialité / Privacy — Pssshhh !</title>
+<!--
+  Points à décider avant publication (voir store/questionnaires.md, « Points à décider ») :
+  1. shadowlinkdigital@gmail.com : adresse de contact à remplacer (trois occurrences par langue).
+  2. Le bouton « Choix publicitaires » des Réglages n'existe pas encore dans le jeu
+     (ui/menus/settings_popup.gd). Il est exigé par Google UMP pour retirer son consentement.
+     Les phrases qui le citent sont marquées « BOUTON À CRÉER ».
+  3. Public : la page dit que le jeu ne vise pas spécialement les moins de 13 ans. À aligner avec
+     le réglage AdMob (tag enfant, contenu maximal) et le public cible déclaré sur Google Play.
+-->
+<style>
+  :root { color-scheme: light dark; --bg: #f2f8fc; --fg: #17222b; --muted: #55636e; --accent: #1f84c7; --card: #ffffff; --line: #d6e3ec; }
+  @media (prefers-color-scheme: dark) { :root { --bg: #131b21; --fg: #eef4f8; --muted: #a9b7c1; --accent: #6cc3ff; --card: #1d2830; --line: #2f3d47; } }
+  * { box-sizing: border-box; }
+  html { scroll-behavior: smooth; }
+  body { background: var(--bg); color: var(--fg); font: 17px/1.65 -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif; margin: 0; padding: 24px 16px 64px; overflow-wrap: break-word; }
+  main { max-width: 44rem; margin: 0 auto; }
+  header { font-size: .95rem; color: var(--muted); margin-bottom: 1.5rem; }
+  header a { display: inline-block; padding: .25rem .7rem; border: 1px solid var(--line); border-radius: 999px; background: var(--card); text-decoration: none; }
+  h1 { font-size: 1.8rem; line-height: 1.2; margin: .2rem 0 .3rem; }
+  h2 { font-size: 1.15rem; color: var(--accent); margin: 2.2rem 0 .5rem; }
+  .meta { color: var(--muted); font-size: .9rem; }
+  a { color: var(--accent); }
+  li { margin: .3rem 0; }
+  .card { background: var(--card); border: 1px solid var(--line); border-radius: 12px; padding: 1rem 1.2rem; margin: 1.2rem 0; }
+  hr { border: 0; border-top: 1px solid var(--line); margin: 3rem 0; }
+</style>
+</head>
+<body>
+<main>
+<header><a href="#fr" hreflang="fr">Français</a> <a href="#en" hreflang="en">English</a></header>
+
+<section id="fr">
+<h1>Politique de confidentialité</h1>
+<p class="meta">Pssshhh ! — mise à jour le 19 novembre 2026</p>
+<div class="card"><p><strong>En bref.</strong> Pssshhh ! ne demande ni compte, ni adresse e-mail, ni accès à votre position, à vos photos, à votre micro ou à vos contacts. Votre progression reste sur votre appareil. Deux services extérieurs entrent en jeu : Google AdMob, pour les publicités, et GitHub, d'où le jeu télécharge ses correctifs.</p></div>
+
+<h2>Qui est responsable</h2>
+<p>Shadowlink Digital, éditeur de Pssshhh !. Contact : shadowlinkdigital@gmail.com.</p>
+
+<h2>Ce qui reste sur votre appareil</h2>
+<ul>
+<li>votre progression : chantiers terminés ou en cours (y compris l'état de nettoyage de chaque pièce, pour reprendre exactement où vous vous êtes arrêté), défis, secrets trouvés, statistiques du musée ;</li>
+<li>vos pièces, l'équipement acheté avec elles et les achats intégrés débloqués ;</li>
+<li>vos réglages : musique, sons, vibrations, langue, boutons de caméra, messages des clients.</li>
+</ul>
+<p>Ces données sont enregistrées par le jeu sur l'appareil et ne sont envoyées à personne : nous n'avons pas de serveur et ne les voyons jamais. Désinstaller le jeu les efface. Selon vos réglages, la sauvegarde de votre téléphone (iCloud, Google) peut en conserver une copie, que nous ne voyons pas non plus.</p>
+
+<h2>Publicités</h2>
+<p>Le jeu est gratuit et affiche une bannière en bas de l'écran, une publicité plein écran de temps en temps après le bilan d'un chantier (au plus une toutes les trois minutes), et des vidéos que vous choisissez de regarder pour doubler vos gains ou recharger un bidon de savon. Elles sont fournies par Google AdMob (Google Ireland Limited dans l'Espace économique européen, au Royaume-Uni et en Suisse ; Google LLC ailleurs).</p>
+<p><strong>Votre consentement.</strong> Dans l'Espace économique européen, au Royaume-Uni et en Suisse, un formulaire de consentement de Google (User Messaging Platform) s'affiche au premier lancement, avant toute publicité : vous choisissez si des données peuvent être utilisées pour des publicités personnalisées. Sur iPhone et iPad, le jeu demande ensuite l'autorisation de suivi d'Apple (App Tracking Transparency) ; si vous refusez, l'identifiant publicitaire d'Apple n'est pas transmis. Dans tous les cas, vous voyez des publicités, simplement moins ciblées si vous avez refusé.</p>
+<p>Pour afficher, mesurer et choisir les publicités, et pour lutter contre la fraude, le SDK de Google reçoit des informations techniques : adresse IP (dont Google peut déduire une localisation approximative, à l'échelle de la ville ou de la région), modèle et système de l'appareil, langue, identifiant publicitaire (IDFA sur iOS, identifiant publicitaire Android) si vous ne l'avez pas refusé ou réinitialisé, interactions avec les publicités, et données de diagnostic et de performance. Ce traitement relève des <a href="https://policies.google.com/technologies/partner-sites">règles de Google</a> et de sa <a href="https://policies.google.com/privacy">politique de confidentialité</a>.</p>
+<p><strong>Changer d'avis.</strong> <!-- BOUTON À CRÉER -->Réglages du jeu › Choix publicitaires rouvre le formulaire de Google pour modifier ou retirer votre consentement. Vous pouvez aussi, à tout moment : sur iPhone, Réglages › Confidentialité et sécurité › Suivi ; sur Android, Paramètres › Google › Annonces, pour réinitialiser ou supprimer votre identifiant publicitaire.</p>
+<p>Retirer les publicités : l'achat intégré « Supprimer les publicités » enlève la bannière et les publicités plein écran. Les vidéos facultatives restent proposées, et ne se lancent que si vous le demandez.</p>
+
+<h2>Achats intégrés</h2>
+<p>Les achats sont traités entièrement par l'App Store d'Apple ou par Google Play, avec votre compte chez eux. Le jeu ne voit ni votre identité, ni vos moyens de paiement : il reçoit seulement la confirmation qu'un produit (par exemple « Supprimer les publicités ») est acheté, et l'enregistre sur l'appareil. « Restaurer mes achats », dans les Réglages, redemande cette liste au store.</p>
+
+<h2>Mises à jour du jeu</h2>
+<p>Quand l'écran titre s'affiche, le jeu vérifie si un correctif est disponible et, le cas échéant, le télécharge depuis GitHub (GitHub, Inc.). La requête ne contient aucune donnée personnelle : seulement la version du jeu et sa plateforme (iPhone ou Android). Comme pour tout téléchargement sur le web, GitHub voit l'adresse IP de l'appareil et des informations techniques de connexion, selon sa <a href="https://docs.github.com/fr/site-policy/privacy-policies/github-general-privacy-statement">déclaration de confidentialité</a>. Nous ne recevons pas ces informations.</p>
+
+<h2>Ce que nous ne faisons pas</h2>
+<ul>
+<li>pas de compte, pas d'e-mail, pas de position GPS, pas de contacts, pas de photos, pas de micro ;</li>
+<li>pas d'outil d'analyse ou de suivi qui nous soit propre ;</li>
+<li>pas de vente de données.</li>
+</ul>
+
+<h2>Enfants</h2>
+<p>Pssshhh ! s'adresse à un public général et n'est pas conçu spécialement pour les enfants de moins de 13 ans. Nous ne collectons sciemment aucune donnée personnelle d'enfant. Si vous pensez qu'un enfant nous a transmis des données, écrivez-nous : shadowlinkdigital@gmail.com.</p>
+
+<h2>Bases légales, transferts et conservation</h2>
+<p>Les publicités personnalisées et l'accès à l'identifiant publicitaire reposent sur votre consentement. L'achat intégré repose sur l'exécution du contrat de vente conclu avec Apple ou Google. Le téléchargement des correctifs repose sur notre intérêt légitime à vous fournir un jeu qui fonctionne. Google et GitHub peuvent traiter des données hors de l'Union européenne, notamment aux États-Unis, avec les garanties prévues par le RGPD (dont le cadre de protection des données UE–États-Unis). Les données du jeu restent sur l'appareil jusqu'à sa désinstallation ; Google conserve les siennes selon ses propres règles.</p>
+
+<h2>Vos droits</h2>
+<p>Vous pouvez demander l'accès, la rectification ou l'effacement des données vous concernant, vous opposer à leur traitement ou retirer votre consentement, en écrivant à shadowlinkdigital@gmail.com. Nous ne détenons aucune donnée sur nos propres serveurs ; pour les publicités, voir aussi <a href="https://myadcenter.google.com">myadcenter.google.com</a>. Vous pouvez également saisir votre autorité de protection des données (en France, la <a href="https://www.cnil.fr">CNIL</a>).</p>
+
+<h2>Modifications</h2>
+<p>Si cette politique change, la date en haut de page change aussi.</p>
+</section>
+
+<hr>
+
+<section id="en" lang="en">
+<h1>Privacy policy</h1>
+<p class="meta">Pssshhh! — updated 19 November 2026</p>
+<div class="card"><p><strong>In short.</strong> Pssshhh! asks for no account, no email address and no access to your location, photos, microphone or contacts. Your progress stays on your device. Two outside services are involved: Google AdMob, for the ads, and GitHub, where the game downloads its fixes from.</p></div>
+
+<h2>Who is responsible</h2>
+<p>Shadowlink Digital, publisher of Pssshhh!. Contact: shadowlinkdigital@gmail.com.</p>
+
+<h2>What stays on your device</h2>
+<ul>
+<li>your progress: finished and ongoing jobs (including how clean each part is, so you pick up exactly where you left off), challenges, secrets found, museum statistics;</li>
+<li>your coins, the equipment bought with them, and unlocked in-app purchases;</li>
+<li>your settings: music, sounds, vibration, language, camera buttons, client messages.</li>
+</ul>
+<p>This data is stored by the game on the device and sent to no one: we have no server and never see it. Uninstalling the game erases it. Depending on your settings, your phone's backup (iCloud, Google) may keep a copy, which we cannot see either.</p>
+
+<h2>Ads</h2>
+<p>The game is free and shows a banner at the bottom of the screen, a full-screen ad now and then after a job's results (at most one every three minutes), and videos you choose to watch to double your earnings or refill a soap tank. They are provided by Google AdMob (Google Ireland Limited in the European Economic Area, the United Kingdom and Switzerland; Google LLC elsewhere).</p>
+<p><strong>Your consent.</strong> In the European Economic Area, the United Kingdom and Switzerland, a Google consent form (User Messaging Platform) appears on first launch, before any ad: you choose whether data may be used for personalised ads. On iPhone and iPad, the game then asks for Apple's tracking permission (App Tracking Transparency); if you decline, Apple's advertising identifier is not shared. Either way you still see ads, just less tailored ones if you declined.</p>
+<p>To show, measure and select ads, and to fight fraud, Google's SDK receives technical information: IP address (from which Google may infer an approximate, city- or region-level location), device model and system, language, advertising identifier (IDFA on iOS, Android advertising ID) unless you declined or reset it, ad interactions, and diagnostic and performance data. This processing falls under <a href="https://policies.google.com/technologies/partner-sites">Google's policies</a> and its <a href="https://policies.google.com/privacy">privacy policy</a>.</p>
+<p><strong>Changing your mind.</strong> <!-- BOUTON À CRÉER -->In-game Settings › Ad choices reopens Google's form so you can change or withdraw your consent. You can also, at any time: on iPhone, Settings › Privacy &amp; Security › Tracking; on Android, Settings › Google › Ads, to reset or delete your advertising ID.</p>
+<p>Removing ads: the “Remove ads” in-app purchase removes the banner and full-screen ads. Optional videos are still offered, and only play when you ask for them.</p>
+
+<h2>In-app purchases</h2>
+<p>Purchases are handled entirely by Apple's App Store or Google Play, with your account there. The game sees neither your identity nor your payment details: it only receives confirmation that a product (for example “Remove ads”) has been bought, and records it on the device. “Restore purchases”, in Settings, asks the store for that list again.</p>
+
+<h2>Game updates</h2>
+<p>When the title screen appears, the game checks whether a fix is available and, if so, downloads it from GitHub (GitHub, Inc.). The request contains no personal data: only the game version and its platform (iPhone or Android). As with any download on the web, GitHub sees the device's IP address and technical connection information, under its <a href="https://docs.github.com/en/site-policy/privacy-policies/github-general-privacy-statement">privacy statement</a>. We do not receive this information.</p>
+
+<h2>What we do not do</h2>
+<ul>
+<li>no account, no email, no GPS location, no contacts, no photos, no microphone;</li>
+<li>no analytics or tracking tool of our own;</li>
+<li>no sale of data.</li>
+</ul>
+
+<h2>Children</h2>
+<p>Pssshhh! is meant for a general audience and is not designed specifically for children under 13. We do not knowingly collect personal data from children. If you believe a child has sent us data, write to us: shadowlinkdigital@gmail.com.</p>
+
+<h2>Legal bases, transfers and retention</h2>
+<p>Personalised ads and access to the advertising identifier rely on your consent. In-app purchases rely on the sales contract made with Apple or Google. Downloading fixes relies on our legitimate interest in giving you a game that works. Google and GitHub may process data outside the European Union, notably in the United States, with the safeguards provided by the GDPR (including the EU–US Data Privacy Framework). Game data stays on the device until it is uninstalled; Google keeps its own data under its own rules.</p>
+
+<h2>Your rights</h2>
+<p>You can ask to access, correct or erase data about you, object to its processing or withdraw your consent, by writing to shadowlinkdigital@gmail.com. We hold no data on servers of our own; for ads, see also <a href="https://myadcenter.google.com">myadcenter.google.com</a>. You may also contact your data protection authority.</p>
+
+<h2>Changes</h2>
+<p>If this policy changes, the date at the top changes too.</p>
+</section>
+</main>
+</body>
+</html>
